@@ -1,0 +1,14 @@
+{
+  "name": "reward-bot",
+  "version": "1.0.0",
+  "main": "rebot.js",
+  "scripts": {
+    "start": "node rebot.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "dotevn": "^0.0.1-security",
+    "ethers": "^6.16.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
