@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 
 const TelegramBot = require("node-telegram-bot-api");
 const { ethers } = require("ethers");
@@ -9,7 +9,7 @@ const { ethers } = require("ethers");
 const TOKEN = process.env.TOKEN;
 
 if (!TOKEN) {
-  console.error("TOKEN not found in .env file");
+  console.error("TOKEN environment variable is not set.");
   process.exit(1);
 }
 
