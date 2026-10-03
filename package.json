@@ -8,7 +8,20 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "dotevn": "^0.0.1-security",
-    "ethers": "^6.16.0",
+    "ethers": "^6.17.0",
     "node-telegram-bot-api": "^0.66.0"
-  }
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khm-dev/My-Reward-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/khm-dev/My-Reward-bot/issues"
+  },
+  "homepage": "https://github.com/khm-dev/My-Reward-bot#readme"
 }
